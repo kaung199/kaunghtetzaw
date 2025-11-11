@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "HTML5", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+        { "name": "CSS3", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+        { "name": "JavaScript", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+        { "name": "jQuery", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original.svg" },
+        { "name": "Bootstrap", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
+        { "name": "Tailwind CSS", "logo": "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+        { "name": "React", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+        { "name": "Vue.js", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" }
+      ]
+    },
+    {
+      "category": "Backend",
+      "items": [
+        { "name": "PHP", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" },
+        { "name": "Laravel", "logo": "https://cdn.worldvectorlogo.com/logos/laravel-2.svg" },
+        { "name": "REST API", "logo": "https://www.svgrepo.com/show/421381/api-app-coding-2.svg" }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [
+        { "name": "MySQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
+        { "name": "PostgreSQL", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" },
+        { "name": "MariaDB", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg" },
+        { "name": "MSSQL", "logo": "https://www.svgrepo.com/show/331760/sql-database-generic.svg" },
+        { "name": "Redis", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg" }
+      ]
+    },
+    {
+      "category": "DevOps / Server",
+      "items": [
+        { "name": "Apache", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg" },
+        { "name": "Nginx", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
+        { "name": "Ubuntu", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" },
+        { "name": "RedHat", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" },
+        { "name": "Docker", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+        { "name": "AWS", "logo": "https://www.svgrepo.com/show/448266/aws.svg" },
+        { "name": "GitHub Actions", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+        { "name": "CI/CD", "logo": "https://cdn-icons-png.flaticon.com/512/196/196066.png" }
+      ]
+    },
+    {
+      "category": "Tools & IDEs",
+      "items": [
+        { "name": "Git", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+        { "name": "Composer", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/composer/composer-original.svg" },
+        { "name": "VS Code", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+        { "name": "PHPStorm", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg" },
+        { "name": "Postman", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" }
+      ]
+    },
+    {
+      "category": "Payment Integrations",
+      "items": [
+        { "name": "MMQR", "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968199.png" },
+        { "name": "Visa", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visa/visa-original.svg" },
+        { "name": "MasterCard", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mastercard/mastercard-original.svg" },
+        { "name": "CB Pay", "logo": "https://www.uab.com.mm/wp-content/uploads/2022/04/uab-logo.jpg" }
+      ]
+    },
+    {
+      "category": "Others / Productivity",
+      "items": [
+        { "name": "Trello", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" },
+        { "name": "Slack", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" },
+        { "name": "Notion", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/notion/notion-original.svg" },
+        { "name": "Canva", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" },
+        { "name": "Viber", "logo": "https://www.svgrepo.com/show/452124/viber.svg" }
+      ]
+    }
+  ]
+}
