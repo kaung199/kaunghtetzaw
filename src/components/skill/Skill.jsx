@@ -3,15 +3,14 @@ import skillsData from "./skills.json";
 
 const Skills = () => {
   return (
-    // bg-linear-to-r from-blue-50 via-white to-pink-50 
     <section
       className="relative mx-4 xxl:mx-0.5 -bottom-20 lg:-bottom-28 z-10 
       rounded-2xl bg-linear-to-r from-green-100  via-pink-50 to-purple-200
-      xl:p-28 lg:p-20 md:p-16 sm:p-10 p-4"
+      xl:p-18 lg:p-15 md:p-16 sm:p-10 p-4"
       id="skills"
     >
       <div className="container mx-auto px-4 sm:px-6">
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-900" >
           My Skills
         </h2>
 
@@ -38,14 +37,14 @@ const Skills = () => {
                 {skillCategory.items.map((skill, idx) => (
                   <div
                     key={idx}
-                    className="bg-white shadow-md rounded-xl p-4 
+                    className="bg-white shadow-md rounded-xl p-3 
                       flex flex-col justify-center items-center border border-gray-100 hover:shadow-xl transition-all"
                   >
                     <div className="text-5xl flex justify-center items-center mb-2">
                       <img
                         src={skill.logo}
                         alt={skill.name}
-                        className="w-12 h-12 object-contain"
+                        className="w-10 h-10 object-contain"
                       />
                     </div>
                     <p className="text-sm font-semibold text-gray-800">

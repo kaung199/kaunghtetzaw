@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Human Resource Management System",
+    "main": "Developed a comprehensive HR management platform for Secure Link Co., Ltd. featuring employee management, attendance tracking, payroll processing, and leave management with role-based access control.",
+    "fullDescription": "Developed a Human Resource Management System using HTML, CSS, Bootstrap, PHP, Laravel, and MySQL, implementing employee management, attendance tracking, payroll, leave management, and role-based access control. Optimized database queries and used AJAX and jQuery for dynamic content. Integrated fingerprint attendance devices via REST API to track real-time employee attendance efficiently and accurately.",
+    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel",
+    "img": "/images/project1.jpg",
+    "link": null,
+    "features": ["Employee Management", "Attendance Tracking", "Payroll System", "Leave Management", "Role-based Access Control", "Fingerprint Device Integration"]
+  },
+  {
+    "title": "MOLA Database System",
+    "main": "A modern system to efficiently manage employee data, attendance, payroll, performance, and assets with secure authentication and real-time attendance tracking.",
+    "fullDescription": "Developed the MOLA Database System using PHP, Laravel, MySQL, and Bootstrap. Designed to manage and store large datasets efficiently, it includes modules for employee management, attendance tracking, payroll, leave management, performance assessment, asset management, and role-based access control. Integrated fingerprint attendance devices via REST API to track real-time attendance, used AJAX and jQuery for dynamic content updates, and ensured secure user authentication. Optimized database queries to handle high-volume data effectively.",
+    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel",
+    "img": "/images/project3.png",
+    "link": null,
+    "features": ["Employee Management", "Attendance Tracking with Fingerprint Integration", "Payroll & Leave Management", "Performance Assessment", "Asset Management", "Role-Based Access Control", "Optimized Database Queries", "Dynamic UI with AJAX & jQuery"]
+  },
+  {
+    "title": "FDA E-Submission (Drug) System",
+    "main": "Government portal for online drug application submissions with secure payment integration and DICA API verification.",
+    "fullDescription": "Developed the FDA e-Submission Drug System using PHP, Laravel, MySQL, and responsive front-end design, enabling online submission of drug applications. Implemented payment integration and connected with the DICA API for user and company registration/verification. Applied encryption methods to secure sensitive data and ensure confidentiality. Ensured secure file uploads, role-based access control, and real-time validation for a seamless and compliant user experience.",
+    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel, Encryption, Payment Gateway",
+    "img": "/images/project4.png",
+    "link": null,
+    "features": ["Online Drug Application Submission", "Payment Gateway Integration", "DICA API Integration for Verification", "Data Encryption & Security", "Secure File Upload System", "Role-based Access Control", "Real-time Form Validation", "Government Compliance Standards"]
+  },
+  {
+    "title": "Post Market Surveillance System (PMS) - FDA",
+    "main": "Comprehensive safety monitoring system for post-market product surveillance, adverse event reporting, and risk assessment.",
+    "fullDescription": "Developed the PMS System using PHP, Laravel, MySQL, and responsive front-end design to monitor and manage post-market safety and compliance of products. Implemented modules for adverse event reporting, product tracking, and risk assessment, handling large datasets efficiently. Integrated role-based access control and applied encryption methods to secure sensitive information. Used AJAX and jQuery for dynamic updates and real-time reporting to ensure accurate and timely monitoring.",
+    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel, Encryption",
+    "img": "/images/project6.jpeg",
+    "link": null,
+    "features": ["Adverse Event Reporting System", "Product Safety Monitoring", "Risk Assessment Modules", "Large Dataset Management", "Role-based Access Control", "Data Encryption & Security", "Real-time Reporting Dashboard", "Regulatory Compliance Tracking", "Dynamic AJAX Updates", "Announcement to public"]
+  },
+  {
+    "title": "ePhyto System",
+    "main": "Digital platform for phytosanitary certificate issuance and management with payment integration and TradeNet API connectivity.",
+    "fullDescription": "Developed the ePhyto System using PHP, Laravel, MySQL, and responsive front-end design for both web and mobile platforms, enabling the digital issuance and management of phytosanitary certificates. Integrated payment processing, connected with DICA for registration/verification, and utilized the TradeNet API for automated certificate submission. Managed large datasets efficiently, implemented role-based access control, and applied encryption methods to secure sensitive data. Used AJAX and jQuery to provide a dynamic, user-friendly interface and ensure real-time tracking and validation.",
+    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel, Encryption, Payment Gateway",
+    "img": "/images/project5.jpeg",
+    "link": null,
+    "features": ["Digital Phytosanitary Certificate Issuance", "Payment Gateway Integration", "TradeNet API Integration", "DICA Registration & Verification", "Large Dataset Management", "Role-based Access Control", "Data Encryption & Security", "Real-time Tracking & Validation", "Responsive Web & Mobile Design", "Dynamic AJAX Interface"]
+  },
+  {
+    "title": "Expense Tracker",
+    "main": "Track and visualize daily expenses with JSON Server backend.",
+    "fullDescription": "A full-stack Expense Tracker app built using React and JSON Server. It allows users to manage daily transactions, categorize expenses, and view summaries with persistent local data. Designed with a clean, modern UI using Tailwind CSS.",
+    "tech": "React, Tailwind CSS, JSON Server",
+    "img": "/images/expense-tracker-main.png",
+    "screenshots": ["/images/expense-tracker.png"],
+    "link": null,
+    "github": "https://github.com/akariphoo/Expense-Tracker",
+    "features": ["Add, Edit, and Delete Transactions", "Category-based Expense Filtering", "Total Spending Summary", "JSON Server API Integration", "Responsive Tailwind UI"]
+  },
+  {
+    "title": "To-Do List App",
+    "main": "A modern to-do list app built with React and JSON Server for full CRUD functionality.",
+    "fullDescription": "Developed a To-Do List application using React and JSON Server that supports creating, updating, deleting, and filtering tasks. Implemented real-time updates, persistent storage through the API, and a responsive design with a clean interface. Demonstrates frontend-backend interaction and API integration using the Fetch API.",
+    "tech": "React, JSON Server, CSS",
+    "img": "/images/to-do-main.png",
+    "screenshots": ["/images/to-do1.png", "/images/to-do2.png", "/images/to-do3.png"],
+    "link": null,
+    "github": "https://github.com/akariphoo/React-Todo",
+    "features": ["Add, Edit, and Delete Tasks", "Filter: All / Active / Completed", "Mark All Complete / Uncheck All", "Clear Completed Tasks", "JSON Server API Integration", "Responsive UI"]
+  },
+  {
+    "title": "Library Management System",
+    "main": "A web-based library management app with React, Tailwind CSS, and JSON Server for CRUD functionality and book management.",
+    "fullDescription": "Developed a Library Management System using React, Tailwind CSS, and JSON Server. Users can browse, search, add, edit, and delete books. Implemented a responsive interface with real-time updates, user authentication using Context API, and clean UI design.",
+    "tech": "React, JSON Server, Tailwind CSS, React Router, Context API",
+    "img": "/images/library-main.png",
+    "screenshots": ["/images/library1.png", "/images/library2.png", "/images/library3.png"],
+    "link": null,
+    "github": "https://github.com/akariphoo/React-Library",
+    "features": ["Browse all books", "View book details", "Add, edit, and delete books", "Search books by title or author", "User authentication with Context API", "Responsive design with TailwindCSS"]
+  }
+]

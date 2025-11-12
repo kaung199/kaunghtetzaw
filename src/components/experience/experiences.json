@@ -1,0 +1,52 @@
+[
+    {
+      "company": "Securelink Co., Ltd.",
+      "period": "August 2021 – Present",
+      "role": "Senior Web Developer & Team Leader",
+      "responsibilities": [
+        "Lead and inspire a high-performing development team, fostering collaboration and innovation.",
+        "Coordinate and facilitate team meetings to review project progress, challenges, and technical solutions.",
+        "Mentor and guide junior developers on best practices, code quality, and professional growth.",
+        "Architect and maintain scalable, high-performance Laravel-based systems with RESTful API integrations.",
+        "Ensure maintainable and reusable code following modern development standards."
+      ]
+    },
+    {
+      "company": "Digital Dots Co., Ltd.",
+      "period": "January 2020 – August 2021",
+      "role": "Senior Web Developer",
+      "responsibilities": [
+        "Led full-stack web development projects using Laravel (PHP) and modern front-end technologies such as Vue.js, SASS, jQuery, HTML, and CSS.",
+        "Designed and maintained RESTful APIs for seamless communication between systems.",
+        "Spearheaded database modeling and data optimization for improved application performance.",
+        "Collaborated with cross-functional teams to ensure timely delivery of software solutions."
+      ]
+    },
+    {
+      "company": "Medifuture Co., Ltd.",
+      "period": "February 2018 – January 2020",
+      "role": "Mid Web Developer",
+      "responsibilities": [
+        "Supported project teams in defining requirements and developing full-stack solutions using Laravel and Vue.js.",
+        "Designed and maintained database architectures to ensure data integrity and scalability.",
+        "Deployed and managed applications on DigitalOcean Droplets and other cloud environments.",
+        "Focused on writing clean, maintainable, and reusable code for long-term sustainability."
+      ]
+    },
+    {
+      "company": "Myanmar Web Designer (MWD) Co., Ltd.",
+      "period": "November 2016 – January 2017",
+      "role": "Junior Web Developer",
+      "responsibilities": [
+        "Assisted in front-end web development using HTML, CSS, and jQuery.",
+        "Collaborated with senior developers in gathering and analyzing business requirements.",
+        "Designed and implemented responsive web pages with modern UX principles."
+      ],
+      "achievements": [
+        "Gained solid experience in front-end development and responsive design.",
+        "Demonstrated teamwork and effective communication within projects.",
+        "Consistently delivered high-quality work under tight deadlines."
+      ]
+    }
+  ]
+

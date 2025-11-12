@@ -27,7 +27,7 @@ const menu = navItems.map((item) => (
       smooth={true}
       duration={1000}
       spy={true}
-      offset={-140}
+      offset={-100}
       activeStyle={{
         backgroundColor: "#9929fb",
         color: "white",

@@ -1,6 +1,5 @@
 import Introduction from "../components/introduction/Introduction";
 import Profile from "../components/profile/Profile";
-import WorkProcess from "../components/workProcess/WorkProcess";
 import Portfolio from "../components/portfolio/Portfolio";
 import Profession from "../components/profession/Profession";
 import Contact from "../components/contact/Contact";
@@ -19,11 +18,8 @@ const Home = () => {
           {/* <Profile /> */}
         </div>
       </div>
-      <div className="bg-soft-white pt-30">
+      <div className="bg-soft-white">
         <Experience />
-      </div>
-      <div className="bg-soft-white pt-30">
-        <WorkProcess />
       </div>
       <Portfolio />
       <div className="bg-soft-white">

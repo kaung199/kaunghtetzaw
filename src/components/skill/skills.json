@@ -38,10 +38,23 @@
         { "name": "Nginx", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" },
         { "name": "Ubuntu", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" },
         { "name": "RedHat", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redhat/redhat-original.svg" },
+        { "name": "Window", "logo": "https://www.svgrepo.com/show/535740/window.svg" },
         { "name": "Docker", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
         { "name": "AWS", "logo": "https://www.svgrepo.com/show/448266/aws.svg" },
-        { "name": "GitHub Actions", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
-        { "name": "CI/CD", "logo": "https://cdn-icons-png.flaticon.com/512/196/196066.png" }
+        {"name": "Data Center (On-Premises Server)", "logo": "https://www.svgrepo.com/show/474394/server.svg"}     
+      ]
+    },
+    {
+      "category": "Payment Integrations",
+      "items": [
+        { "name": "MMQR", "logo": "/images/payments/mmqr.png" },
+        { "name": "Visa", "logo": "/images/payments/visapay.png" },
+        { "name": "MasterCard", "logo": "/images/payments/mastercardpay.png" },
+        { "name": "JCB", "logo": "/images/payments/jcbpay.png" },
+        { "name": "UnionPay", "logo": "/images/payments/unionpay.png" },
+        { "name": "MasterCard", "logo": "/images/payments/mastercardpay.png" },
+        { "name": "MPU", "logo": "/images/payments/mpupay.png" },
+        { "name": "CB Pay", "logo": "/images/payments/cbpay.png" }
       ]
     },
     {
@@ -52,15 +65,6 @@
         { "name": "VS Code", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
         { "name": "PHPStorm", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg" },
         { "name": "Postman", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" }
-      ]
-    },
-    {
-      "category": "Payment Integrations",
-      "items": [
-        { "name": "MMQR", "logo": "https://cdn-icons-png.flaticon.com/512/5968/5968199.png" },
-        { "name": "Visa", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visa/visa-original.svg" },
-        { "name": "MasterCard", "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mastercard/mastercard-original.svg" },
-        { "name": "CB Pay", "logo": "https://www.uab.com.mm/wp-content/uploads/2022/04/uab-logo.jpg" }
       ]
     },
     {
