@@ -1,17 +1,13 @@
 import {
   FaFacebookF,
-  FaDribbble,
-  FaInstagram,
   FaLinkedinIn,
-  FaBehance,
+  FaViber,
 } from "react-icons/fa";
 
 const socialIcons = [
   { icon: <FaFacebookF />, link: "#!" },
-  { icon: <FaDribbble />, link: "#!" },
-  { icon: <FaInstagram />, link: "#!" },
   { icon: <FaLinkedinIn />, link: "#!" },
-  { icon: <FaBehance />, link: "#!" },
+  { icon: <FaViber />, link: "#!" },
 ];
 
 const SocialMedia = () => {

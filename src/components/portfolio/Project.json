@@ -1,80 +1,110 @@
 [
   {
-    "title": "Human Resource Management System",
-    "main": "Developed a comprehensive HR management platform for Secure Link Co., Ltd. featuring employee management, attendance tracking, payroll processing, and leave management with role-based access control.",
-    "fullDescription": "Developed a Human Resource Management System using HTML, CSS, Bootstrap, PHP, Laravel, and MySQL, implementing employee management, attendance tracking, payroll, leave management, and role-based access control. Optimized database queries and used AJAX and jQuery for dynamic content. Integrated fingerprint attendance devices via REST API to track real-time employee attendance efficiently and accurately.",
-    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel",
-    "img": "/images/project1.jpg",
-    "link": null,
-    "features": ["Employee Management", "Attendance Tracking", "Payroll System", "Leave Management", "Role-based Access Control", "Fingerprint Device Integration"]
+    "id": 1,
+    "title": "FDA E-Submission System (Myanmar)",
+    "category": "Web Application",
+    "projectType": "Full Stack",
+    "main_description": "A government portal for online drug, food, cosmetic, and medical device submissions with payment and verification integrations.",
+    "mainPhoto": "/images/projects/sample.png",
+    "technologies": ["PHP", "Laravel", "MySQL", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "Livewire", "REST API"],
+    "full_description": "Developed Myanmar FDA's e-Submission System for managing regulatory approvals of Food, Drug, Cosmetic, and Medical Device products. Integrated secure payment processing, DICA API verification, and laboratory testing modules. Applied encryption for sensitive data and role-based access control to ensure security and compliance with public health standards.",
+    "features": [
+      "Online Application Submission",
+      "DICA API Integration for Company Verification",
+      "Secure Payment Gateway",
+      "Laboratory Testing and Reporting Module",
+      "Role-Based Access Control",
+      "Data Encryption and Security",
+      "Real-time Validation and Notifications"
+    ],
+    "screenshots": ["/images/fda-esubmission-1.png", "/images/fda-esubmission-2.png"],
+    "demoLink": null,
+    "githubLink": null
   },
   {
-    "title": "MOLA Database System",
-    "main": "A modern system to efficiently manage employee data, attendance, payroll, performance, and assets with secure authentication and real-time attendance tracking.",
-    "fullDescription": "Developed the MOLA Database System using PHP, Laravel, MySQL, and Bootstrap. Designed to manage and store large datasets efficiently, it includes modules for employee management, attendance tracking, payroll, leave management, performance assessment, asset management, and role-based access control. Integrated fingerprint attendance devices via REST API to track real-time attendance, used AJAX and jQuery for dynamic content updates, and ensured secure user authentication. Optimized database queries to handle high-volume data effectively.",
-    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel",
-    "img": "/images/project3.png",
-    "link": null,
-    "features": ["Employee Management", "Attendance Tracking with Fingerprint Integration", "Payroll & Leave Management", "Performance Assessment", "Asset Management", "Role-Based Access Control", "Optimized Database Queries", "Dynamic UI with AJAX & jQuery"]
+    "id": 2,
+    "title": "Human Resource Management System (HRMS)",
+    "category": "Business Application",
+    "projectType": "Full Stack",
+    "main_description": "An internal HR management platform for employee, attendance, payroll, and leave management with role-based access.",
+    "mainPhoto": "/images/projects/sample.png",
+    "technologies": ["PHP", "Laravel", "MySQL", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery", "REST API"],
+    "full_description": "Built a local-network HRMS with employee profiles, attendance tracking, training, performance evaluation, and payroll management. Integrated calendar-based leave management and detailed financial reports. Designed for secure internal use without public access, ensuring efficiency and confidentiality.",
+    "features": [
+      "Employee Profile Management",
+      "Attendance and Leave Tracking",
+      "Training and Performance Evaluation",
+      "Payroll System with Reporting",
+      "Calendar Integration",
+      "Role-Based Access Control",
+      "Local Network Deployment"
+    ],
+    "screenshots": ["/images/hrms-1.png", "/images/hrms-2.png"],
+    "demoLink": null,
+    "githubLink": null
   },
   {
-    "title": "FDA E-Submission (Drug) System",
-    "main": "Government portal for online drug application submissions with secure payment integration and DICA API verification.",
-    "fullDescription": "Developed the FDA e-Submission Drug System using PHP, Laravel, MySQL, and responsive front-end design, enabling online submission of drug applications. Implemented payment integration and connected with the DICA API for user and company registration/verification. Applied encryption methods to secure sensitive data and ensure confidentiality. Ensured secure file uploads, role-based access control, and real-time validation for a seamless and compliant user experience.",
-    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel, Encryption, Payment Gateway",
-    "img": "/images/project4.png",
-    "link": null,
-    "features": ["Online Drug Application Submission", "Payment Gateway Integration", "DICA API Integration for Verification", "Data Encryption & Security", "Secure File Upload System", "Role-based Access Control", "Real-time Form Validation", "Government Compliance Standards"]
+    "id": 3,
+    "title": "Post Market Surveillance System (PMS)",
+    "category": "Business Application",
+    "projectType": "Full Stack",
+    "main_description": "A post-market monitoring system to ensure safety compliance for food, drugs, cosmetics, and medical devices.",
+    "mainPhoto": "/images/projects/sample.png",
+    "technologies": ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "jQuery", "REST API"],
+    "full_description": "Developed a comprehensive PMS system for the FDA to track and analyze product safety and adverse events. Includes certificate verification, reporting modules, and risk assessments. Implements encryption for sensitive data and AJAX-based real-time reporting dashboards.",
+    "features": [
+      "Adverse Event Reporting",
+      "Product Tracking and Verification",
+      "Risk Assessment and Analysis",
+      "Dynamic AJAX Dashboard",
+      "Data Encryption",
+      "Regulatory Compliance Tracking"
+    ],
+    "screenshots": ["/images/pms-1.png", "/images/pms-2.png"],
+    "demoLink": null,
+    "githubLink": null
   },
   {
-    "title": "Post Market Surveillance System (PMS) - FDA",
-    "main": "Comprehensive safety monitoring system for post-market product surveillance, adverse event reporting, and risk assessment.",
-    "fullDescription": "Developed the PMS System using PHP, Laravel, MySQL, and responsive front-end design to monitor and manage post-market safety and compliance of products. Implemented modules for adverse event reporting, product tracking, and risk assessment, handling large datasets efficiently. Integrated role-based access control and applied encryption methods to secure sensitive information. Used AJAX and jQuery for dynamic updates and real-time reporting to ensure accurate and timely monitoring.",
-    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel, Encryption",
-    "img": "/images/project6.jpeg",
-    "link": null,
-    "features": ["Adverse Event Reporting System", "Product Safety Monitoring", "Risk Assessment Modules", "Large Dataset Management", "Role-based Access Control", "Data Encryption & Security", "Real-time Reporting Dashboard", "Regulatory Compliance Tracking", "Dynamic AJAX Updates", "Announcement to public"]
+    "id": 4,
+    "title": "ePhyto Certificate System",
+    "category": "Web Application",
+    "projectType": "Full Stack",
+    "main_description": "A digital platform for phytosanitary certificate management with TradeNet API and online payment integration.",
+    "mainPhoto": "/images/projects/sample.png",
+    "technologies": ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "jQuery", "REST API", "Encryption"],
+    "full_description": "Built the ePhyto system to issue and manage phytosanitary certificates digitally. Integrated TradeNet API for automated submission and DICA verification for company registration. Implemented real-time tracking, role-based access control, and secure data encryption.",
+    "features": [
+      "Digital Certificate Issuance",
+      "TradeNet API Integration",
+      "Online Payment System",
+      "DICA Verification",
+      "Real-time Tracking and Validation",
+      "Secure Data Encryption",
+      "Responsive Design"
+    ],
+    "screenshots": ["/images/ephyto-1.png", "/images/ephyto-2.png"],
+    "demoLink": null,
+    "githubLink": null
   },
   {
-    "title": "ePhyto System",
-    "main": "Digital platform for phytosanitary certificate issuance and management with payment integration and TradeNet API connectivity.",
-    "fullDescription": "Developed the ePhyto System using PHP, Laravel, MySQL, and responsive front-end design for both web and mobile platforms, enabling the digital issuance and management of phytosanitary certificates. Integrated payment processing, connected with DICA for registration/verification, and utilized the TradeNet API for automated certificate submission. Managed large datasets efficiently, implemented role-based access control, and applied encryption methods to secure sensitive data. Used AJAX and jQuery to provide a dynamic, user-friendly interface and ensure real-time tracking and validation.",
-    "tech": "HTML, CSS, Javascript, jQuery, AJAX, Bootstrap, REST API, MySQL, PHP, Laravel, Encryption, Payment Gateway",
-    "img": "/images/project5.jpeg",
-    "link": null,
-    "features": ["Digital Phytosanitary Certificate Issuance", "Payment Gateway Integration", "TradeNet API Integration", "DICA Registration & Verification", "Large Dataset Management", "Role-based Access Control", "Data Encryption & Security", "Real-time Tracking & Validation", "Responsive Web & Mobile Design", "Dynamic AJAX Interface"]
-  },
-  {
-    "title": "Expense Tracker",
-    "main": "Track and visualize daily expenses with JSON Server backend.",
-    "fullDescription": "A full-stack Expense Tracker app built using React and JSON Server. It allows users to manage daily transactions, categorize expenses, and view summaries with persistent local data. Designed with a clean, modern UI using Tailwind CSS.",
-    "tech": "React, Tailwind CSS, JSON Server",
-    "img": "/images/expense-tracker-main.png",
-    "screenshots": ["/images/expense-tracker.png"],
-    "link": null,
-    "github": "https://github.com/akariphoo/Expense-Tracker",
-    "features": ["Add, Edit, and Delete Transactions", "Category-based Expense Filtering", "Total Spending Summary", "JSON Server API Integration", "Responsive Tailwind UI"]
-  },
-  {
-    "title": "To-Do List App",
-    "main": "A modern to-do list app built with React and JSON Server for full CRUD functionality.",
-    "fullDescription": "Developed a To-Do List application using React and JSON Server that supports creating, updating, deleting, and filtering tasks. Implemented real-time updates, persistent storage through the API, and a responsive design with a clean interface. Demonstrates frontend-backend interaction and API integration using the Fetch API.",
-    "tech": "React, JSON Server, CSS",
-    "img": "/images/to-do-main.png",
-    "screenshots": ["/images/to-do1.png", "/images/to-do2.png", "/images/to-do3.png"],
-    "link": null,
-    "github": "https://github.com/akariphoo/React-Todo",
-    "features": ["Add, Edit, and Delete Tasks", "Filter: All / Active / Completed", "Mark All Complete / Uncheck All", "Clear Completed Tasks", "JSON Server API Integration", "Responsive UI"]
-  },
-  {
-    "title": "Library Management System",
-    "main": "A web-based library management app with React, Tailwind CSS, and JSON Server for CRUD functionality and book management.",
-    "fullDescription": "Developed a Library Management System using React, Tailwind CSS, and JSON Server. Users can browse, search, add, edit, and delete books. Implemented a responsive interface with real-time updates, user authentication using Context API, and clean UI design.",
-    "tech": "React, JSON Server, Tailwind CSS, React Router, Context API",
-    "img": "/images/library-main.png",
-    "screenshots": ["/images/library1.png", "/images/library2.png", "/images/library3.png"],
-    "link": null,
-    "github": "https://github.com/akariphoo/React-Library",
-    "features": ["Browse all books", "View book details", "Add, edit, and delete books", "Search books by title or author", "User authentication with Context API", "Responsive design with TailwindCSS"]
+    "id": 5,
+    "title": "POS & Online Shop System",
+    "category": "Business Application",
+    "projectType": "Full Stack",
+    "main_description": "A modern POS and e-commerce system for managing sales, products, and inventory efficiently.",
+    "mainPhoto": "/images/projects/sample.png",
+    "technologies": ["PHP", "Laravel", "MySQL", "HTML", "CSS", "Bootstrap", "JavaScript", "jQuery"],
+    "full_description": "Developed a Point-of-Sale and Online Shop system for small to medium businesses. Includes inventory management, sales tracking, and customer order management with dynamic reporting. Designed a responsive user interface for both desktop and mobile users.",
+    "features": [
+      "Inventory Management",
+      "Sales Tracking and Reports",
+      "Customer Order Management",
+      "Product Catalog and Pricing",
+      "Responsive UI Design",
+      "Secure Authentication System"
+    ],
+    "screenshots": ["/images/pos-1.png", "/images/pos-2.png"],
+    "demoLink": "https://kaunghtetzaw.com",
+    "githubLink": null
   }
 ]

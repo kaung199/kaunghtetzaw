@@ -1,4 +1,4 @@
-import person from "/kaunghtetzaw.png";
+import person from "/kaung_htet_zaw_full_stack_developer_profile.png";
 import "./introduction.css";
 
 

@@ -1,17 +1,9 @@
 import { useEffect, useState } from "react";
-import logo from "/kaunghtetzaw_logo.png";
+import logo from "/kaung_htet_zaw_full_stack_developer_logo.png";
 import { Link } from "react-scroll";
 import { FaDownload } from "react-icons/fa";
+import navItems  from "./NavBarItems.json"
 
-
-const navItems = [
-  { id: 1, name: "Home", url: "introduction" },
-  { id: 2, name: "Skills", url: "skills" },
-  { id: 3, name: "Experiences", url: "experiences" },
-  { id: 4, name: "Projects", url: "projects" },
-  { id: 5, name: "About", url: "about" },
-  { id: 6, name: "Contact", url: "contact" },
-];
 
 const handleMenuClick = () => {
   if (document.activeElement instanceof HTMLElement) {
@@ -106,15 +98,13 @@ const NavBar = () => {
             {menu}
           </ul>
           <p className="">
-            <Link
+            <a
               className="btn btn-sm xs:btn-md sm:btn-lg btn-primary"
-              href="#contact"
-              to={`contact`}
-              smooth={true}
-              duration={900}
+              href="Kaung_Htet_Zaw_Full_Stack_Developer_CV.pdf"
+              download="Kaung_Htet_Zaw_Full_Stack_Developer_CV.pdf"
             >
               <FaDownload className="inline-block" /> Download CV
-            </Link>
+            </a>
           </p>
         </div>
       </div>

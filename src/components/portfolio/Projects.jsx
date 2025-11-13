@@ -1,31 +1,71 @@
+import { useState } from "react";
 import { FaArrowRight } from "react-icons/fa6";
+import ProjectDetailModal from "./ProductDetailModal";
 
 const Projects = ({ data }) => {
+  const [showModal, setShowModal] = useState(false);
+
   return (
-    <div className="max-w-106 rounded-lg outline-[#FFFFFF] hover:shadow-2xl duration-300 transition-all shadow-gray-300 border border-gray-200">
-      <img src={data?.image} alt={`${data?.title} image`} />
-      <div className="p-4 xs:p-8">
-        <p className="text-gray-400 text-xs font-medium">{data?.category}</p>
-        <p className="text-gray-900 text-md xxs:text-lg font-semibold pt-1 mb-3">
-          {data?.title}
-        </p>
-        <p
-          style={{ lineHeight: "20px", letterSpacing: "0%" }}
-          className="text-gray-600 text-xs xxs:text-[14px] text-wrap"
-        >
-          {data?.description}
-        </p>
-        <a
-          href={data?.link}
-          className="btn hover:border-picto-primary hover:text-picto-primary bg-white text-sm xs:text-[16px] font-semibold hover:gap-3 xs:hover:gap-4 transition-all duration-300 mt-5 xs:py-5.75 px-6 max-sm:w-full flex items-center justify-center"
-        >
-          Case Study
-          <span className="ms-1 xs:ms-3 flex items-center">
-            <FaArrowRight className="text-base xs:text-lg" />
-          </span>
-        </a>
+    <>
+      <div className="max-w-sm bg-white rounded-2xl border border-gray-200 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+        {/* Image */}
+        <div className="overflow-hidden">
+          <img
+            src={data?.mainPhoto}
+            alt={`${data?.title} image`}
+            className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+
+        {/* Content */}
+        <div className="p-5 xs:p-7">
+          <p className="text-gray-400 text-xs font-medium mb-1">
+            {data?.category} | {data?.projectType}
+          </p>
+
+          <h3 className="text-gray-900 text-lg font-semibold mb-2">
+            {data?.title}
+          </h3>
+
+          <p
+            style={{ lineHeight: "20px" }}
+            className="text-gray-600 text-sm leading-snug"
+          >
+            {data?.main_description}
+          </p>
+
+          {/* Buttons */}
+          <div className="flex flex-wrap gap-3 mt-6">
+            {/* Details Button */}
+            <button
+              onClick={() => setShowModal(true)}
+              className="flex cursor-pointer items-center justify-center gap-2 border border-gray-300 text-gray-800 hover:border-teal-500 hover:text-teal-600 bg-white font-semibold text-sm xs:text-base py-2.5 px-5 rounded-lg transition-all duration-300"
+            >
+              Details
+              <FaArrowRight className="text-sm" />
+            </button>
+
+            {/* Demo Button (only if demoLink exists) */}
+            {data?.demoLink && (
+              <a
+                href={data?.demoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 border border-gray-300 text-gray-800 hover:border-teal-500 hover:text-teal-600 bg-white font-semibold text-sm xs:text-base py-2.5 px-5 rounded-lg transition-all duration-300"
+              >
+                Demo
+                <FaArrowRight className="text-sm" />
+              </a>
+            )}
+          </div>
+        </div>
       </div>
-    </div>
+
+      {/* Modal */}
+      {showModal && (
+        <ProjectDetailModal project={data} onClose={() => setShowModal(false)} />
+      )}
+    </>
   );
 };
 

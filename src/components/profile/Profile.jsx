@@ -5,8 +5,8 @@ import SocialMedia from "../common/socialMedia/SocialMedia";
 const Profile = () => {
   return (
     <div
-      className={`relative mx-4 xxl:mx-0.5 -bottom-20 lg:-bottom-28 z-10 rounded-2xl bg-white drop-shadow-2xl max-xl:mb-5 shadow-white xl:p-28 lg:p-20 md:p-16 sm:p-10 p-4`}
-      id="profile"
+      className={`relative mx-4 xxl:mx-0.5 z-10 rounded-2xl bg-white drop-shadow-2xl max-xl:mb-5 shadow-white xl:p-28 lg:p-20 md:p-16 sm:p-10 p-4`}
+      id="about"
     >
       <div className="flex max-md:flex-col justify-between items-center gap-6">
         {/* Profile image */}
@@ -22,7 +22,7 @@ const Profile = () => {
           {/* Social media section */}
           <div className="relative bottom-9">
             <div className="flex justify-center">
-              <div className="px-6 max-w-66 py-3 z-50 text-center bg-white rounded-[4px] center shadow-2xl drop-shadow-2xl shadow-white">
+              <div className="px-6 max-w-66 py-3 z-50 text-center bg-white rounded-sm center shadow-2xl drop-shadow-2xl shadow-white">
                 <SocialMedia />
               </div>
             </div>
