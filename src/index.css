@@ -59,3 +59,21 @@ body {
   background: radial-gradient(circle at -10% 0%, #da4df166 1%, transparent 25%),
     radial-gradient(circle at 110% 30%, #c4f5e9b2 5%, transparent 25%);
 }
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+@keyframes scaleIn {
+  0% { transform: scale(0.95); opacity: 0 }
+  100% { transform: scale(1); opacity: 1 }
+}
+
+.animate-fadeIn {
+  animation: fadeIn .25s ease-out;
+}
+
+.animate-scaleIn {
+  animation: scaleIn .25s ease-out;
+}

@@ -34,7 +34,7 @@ const Introduction = () => {
         </div>
       </div>
       <div
-        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-536/636 relative`}
+        className={`max-w-134 w-full h-full max-lg:mx-auto aspect-536/600 relative`}
       >
         <img
           className={`shadow-2xl shadow-gray-200 w-full h-full absolute bottom-0 object-cover bg-white rounded-3xl`}

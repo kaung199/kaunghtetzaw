@@ -17,7 +17,7 @@
       "Data Encryption and Security",
       "Real-time Validation and Notifications"
     ],
-    "screenshots": ["/images/fda-esubmission-1.png", "/images/fda-esubmission-2.png"],
+    "screenshots": ["images/projects/sample.png", "images/projects/sample.png"],
     "demoLink": null,
     "githubLink": null
   },
@@ -106,5 +106,218 @@
     "screenshots": ["/images/pos-1.png", "/images/pos-2.png"],
     "demoLink": "https://kaunghtetzaw.com",
     "githubLink": null
-  }
+  },
+  {
+    "id": 6,
+    "title": "Travel & Tour Management System",
+    "category": "Web Application",
+    "projectType": "Full Stack",
+    "main_description": "A complete travel and tour booking platform with package management, customer booking flow, invoicing, and admin control panel.",
+    "mainPhoto": "/images/travel-tour.png",
+    "technologies": ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "jQuery", "REST API"],
+    "full_description": "Developed a full-featured Travel & Tour Management System to streamline package listings, customer bookings, itinerary management, and automated invoicing. Designed with a mobile-responsive UI for customers and a secured admin dashboard for managing tours, pricing, promotions, and bookings. Includes real-time availability tracking and an optimized booking workflow.",
+    "features": [
+      "Tour Package Creation and Management",
+      "Online Booking System",
+      "Automated Invoices and Booking Confirmations",
+      "Customer Information Management",
+      "Promo Code and Pricing Control",
+      "Itinerary and Schedule Builder",
+      "Responsive Design for Mobile and Desktop"
+    ],
+    "screenshots": [
+      "/images/travel-tour-1.png",
+      "/images/travel-tour-2.png"
+    ],
+    "demoLink": null,
+    "githubLink": null
+  },
+  {
+    "id": 7,
+    "title": "GitLab Private Server Deployment",
+    "category": "DevOps",
+    "projectType": "System Deployment",
+    "main_description": "Deployed and configured a secure GitLab private server for internal company development workflows, CI/CD pipelines, and repository management.",
+    "mainPhoto": "/images/gitlab-private.png",
+    "technologies": ["GitLab", "Linux Server", "Nginx", "Docker", "CI/CD", "SSH"],
+    "full_description": "Implemented a company-wide GitLab private server to centralize code repositories, automate deployments, and enhance development workflow security. Configured SSH key-based authentication, runner setup for CI/CD pipelines, backup automation, and monitoring. Optimized server performance and ensured high availability for daily development operations.",
+    "features": [
+      "Private GitLab Server Setup",
+      "Repository & User Access Management",
+      "CI/CD Pipeline Configuration",
+      "Secure SSH Authentication",
+      "Automated Backups",
+      "Nginx Reverse Proxy Setup",
+      "Server Hardening & Monitoring"
+    ],
+    "screenshots": [],
+    "demoLink": null,
+    "githubLink": null
+  },
+  {
+  "id": 8,
+  "title": "Enterprise Server Infrastructure & DevOps Deployment",
+  "category": "DevOps & Infrastructure",
+  "projectType": "System Deployment",
+  "main_description": "Designed and deployed a secure, scalable Linux-based production infrastructure with automated backups, queue processing, server hardening, Redis caching, and optimized application hosting.",
+  "mainPhoto": "/images/server-deployment.png",
+  "technologies": [
+    "Linux Ubuntu Server",
+    "Apache",
+    "Nginx",
+    "PHP",
+    "Composer",
+    "MySQL",
+    "Redis",
+    "Supervisor",
+    "Cron",
+    "Firewall",
+    "SSL/HTTPS",
+    "DNS",
+    "Git",
+    "GitLab/GitHub Deployment"
+  ],
+  "full_description": "Deployed a complete production-ready infrastructure on Ubuntu Linux including web, application, and database server layers. Configured Apache/Nginx hosting, PHP with extensions, and Composer for dependency management. Implemented MySQL optimization, Redis caching, and Supervisor for queue workers to support high-performance job processing such as email sending and background tasks. Set up automatic database backups via cron, secure firewall rules, SSL termination, and system hardening. Managed file server configuration, log rotation, and caching strategies to ensure stability, security, and scalability.",
+  "features": [
+    "Ubuntu Server Installation & Hardening",
+    "Apache & Nginx Web Server Configuration",
+    "PHP Extensions & Composer Setup",
+    "MySQL Database Server Performance Optimization",
+    "Redis Cache & Session Optimization",
+    "Supervisor Queue Worker Management",
+    "Job Scheduling with Cron (emails, tasks, cleanup)",
+    "Automated Daily Database Backups with Cron",
+    "Virtual Hosts for Multiple Applications",
+    "SSL/HTTPS Security with Auto-Renewal",
+    "File Server Permissions & Storage Structure",
+    "Firewall Rules (UFW) & Fail2Ban Security",
+    "Separate Web, Database, and Application Configurations",
+    "System Monitoring, Log Rotation & Performance Tuning",
+    "Git/GitLab Deployment Workflow Integration"
+  ],
+  "screenshots": [],
+  "demoLink": null,
+  "githubLink": null
+},
+{
+  "id": 9,
+  "title": "Infinity Subscription UI Showcase",
+  "category": "Frontend",
+  "projectType": "Portfolio Piece",
+  "main_description": "A modern and responsive subscription and product showcase UI built with React, Vite, and TailwindCSS, designed for fast performance and clean visual presentation.",
+  "mainPhoto": "/images/infinity-main.png",
+  "technologies": [
+    "React 19",
+    "Vite 7",
+    "Tailwind CSS 4",
+    "DaisyUI",
+    "React Router v7",
+    "React Icons",
+    "React Scroll",
+    "React Spinners",
+    "JavaScript (ESM)"
+  ],
+  "full_description": "Infinity is a frontend-only React application powered by Vite for blazing-fast development and TailwindCSS for modern, utility-first styling. The UI showcases subscription plans, product categories, and smooth animated interactions. The project uses DaisyUI for component styling, React Router for navigation, and mock JSON data to simulate real API responses. Designed to highlight strong UI/UX design, component reusability, and modern frontend architecture.",
+  "features": [
+    "Interactive Subscription Plan UI",
+    "Dynamic Product Listing with Category Filters",
+    "Smooth Page Navigation Using React Router",
+    "Responsive UI Built with TailwindCSS & DaisyUI",
+    "Reusable Component-Based Architecture",
+    "Mock API Data Simulation",
+    "Modern UI Animations & Loading Effects",
+    "Optimized Performance with Vite"
+  ],
+  "screenshots": [
+    "/images/infinity-home.png",
+    "/images/infinity-products.png",
+    "/images/infinity-plans.png"
+  ],
+  "demoLink": "https://infinity-kohl-eight.vercel.app/",
+  "githubLink": null
+},
+{
+  "id": 10,
+  "title": "Kaung Htet Zaw — Personal Portfolio",
+  "category": "Frontend",
+  "projectType": "Personal Website",
+  "main_description": "A fully responsive and modern personal portfolio built with React, Vite, and TailwindCSS, featuring smooth animations, optimized routing, and a clean UI design to showcase skills, projects, and contact information.",
+  "mainPhoto": "/images/portfolio-main.png",
+  "technologies": [
+    "React 19",
+    "Vite 7",
+    "Tailwind CSS 4",
+    "DaisyUI",
+    "React Router v7",
+    "React Scroll",
+    "Framer Motion",
+    "React Icons",
+    "React Spinners",
+    "EmailJS"
+  ],
+  "full_description": "This portfolio website is a modern, high-performance frontend project designed to highlight my skills, professional experience, and showcased projects. Built using React and Vite for speed and efficiency, the UI is styled with TailwindCSS and DaisyUI for clean and consistent design. Framer Motion provides elegant animations, while React Router enables smooth page transitions. The contact form is integrated with EmailJS, allowing for direct email communication without a backend server. The site is fully responsive, optimized for fast loading, and deployed on a custom domain.",
+  "features": [
+    "Responsive Personal Portfolio UI",
+    "Smooth Animations with Framer Motion",
+    "Interactive Project Showcase",
+    "Fast Navigation with React Router",
+    "EmailJS Contact Form Integration",
+    "Section-Based Smooth Scrolling",
+    "Optimized Build with Vite",
+    "Modern TailwindCSS & DaisyUI Styling",
+    "Static Deployment with Custom Domain"
+  ],
+  "screenshots": [
+    "/images/portfolio-home.png",
+    "/images/portfolio-about.png",
+    "/images/portfolio-projects.png",
+    "/images/portfolio-contact.png"
+  ],
+  "demoLink": "https://kaunghtetzaw.com",
+  "githubLink": null
+},
+{
+  "id": 11,
+  "title": "Task Management System",
+  "category": "Fullstack",
+  "projectType": "Portfolio Piece",
+  "main_description": "A comprehensive task management system built with Laravel, MySQL, and jQuery, designed to streamline task tracking, reporting, and team collaboration on Ubuntu servers with Apache.",
+  "mainPhoto": "/images/task-main.png",
+  "technologies": [
+    "Laravel 10",
+    "MySQL 8",
+    "jQuery 3",
+    "Bootstrap 5",
+    "Ubuntu 22.04",
+    "Apache 2.4",
+    "PHP 8",
+    "AptoBackend",
+    "Report Generation"
+  ],
+  "full_description": "This Task Management System is a full-featured web application built with Laravel and MySQL. It allows teams to create, assign, and track tasks efficiently. The system uses jQuery and Bootstrap for interactive UI elements, supports report generation, and runs on Ubuntu servers with Apache for stable deployment. The project emphasizes backend logic, database optimization, and clean frontend interactions for a seamless user experience.",
+  "features": [
+    "Task Creation, Assignment & Tracking",
+    "User Role & Permission Management",
+    "Interactive Dashboard with jQuery",
+    "Responsive UI with Bootstrap",
+    "Detailed Task Reporting & Export",
+    "Database-Driven Backend with Laravel",
+    "Server Deployment on Ubuntu & Apache",
+    "Optimized Performance & Security"
+  ],
+  "screenshots": [
+    "/images/task-dashboard.png",
+    "/images/task-list.png",
+    "/images/task-report.png"
+  ],
+  "demoLink": null,
+  "githubLink": null
+}
+
+
+
+
+
+
+
 ]
