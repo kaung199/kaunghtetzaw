@@ -14,7 +14,7 @@ export default function ProjectDetailModal({ project, onClose }) {
   return createPortal(
     <div
       className="fixed inset-0 z-9999 flex items-center justify-center 
-      backdrop-blur-md bg-white/30 p-4 animate-fadeIn"
+      backdrop-blur-md bg-white/50 p-4 animate-fadeIn"
       onClick={onClose}
     >
       {/* Modal container */}

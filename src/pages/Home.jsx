@@ -1,5 +1,4 @@
 import Introduction from "../components/introduction/Introduction";
-import Profile from "../components/profile/Profile";
 import Portfolio from "../components/portfolio/Portfolio";
 import Contact from "../components/contact/Contact";
 import "./../index.css";
@@ -19,7 +18,6 @@ const Home = () => {
         <Experience />
       </div>
       <Portfolio />
-      {/* <Profile /> */}
       <Contact />
     </div>
   );
