@@ -176,52 +176,25 @@
     "githubLink": null
   },
   {
-    "id": 6,
-    "title": "Travel & Tour Management System",
-    "category": "Web Application",
-    "projectType": "Full Stack",
-    "main_description": "A complete travel and tour booking platform with package management, customer booking flow, invoicing, and admin control panel.",
-    "mainPhoto": "/images/travel-tour.png",
-    "technologies": ["PHP", "Laravel", "MySQL", "Bootstrap", "JavaScript", "jQuery", "REST API"],
-    "full_description": "Developed a full-featured Travel & Tour Management System to streamline package listings, customer bookings, itinerary management, and automated invoicing. Designed with a mobile-responsive UI for customers and a secured admin dashboard for managing tours, pricing, promotions, and bookings. Includes real-time availability tracking and an optimized booking workflow.",
-    "features": [
-      "Tour Package Creation and Management",
-      "Online Booking System",
-      "Automated Invoices and Booking Confirmations",
-      "Customer Information Management",
-      "Promo Code and Pricing Control",
-      "Itinerary and Schedule Builder",
-      "Responsive Design for Mobile and Desktop"
-    ],
-    "screenshots": [
-      "/images/travel-tour-1.png",
-      "/images/travel-tour-2.png"
-    ],
-    "demoLink": null,
-    "githubLink": null
-  },
-  {
-    "id": 7,
-    "title": "GitLab Private Server Deployment",
-    "category": "DevOps",
-    "projectType": "System Deployment",
-    "main_description": "Deployed and configured a secure GitLab private server for internal company development workflows, CI/CD pipelines, and repository management.",
-    "mainPhoto": "/images/gitlab-private.png",
-    "technologies": ["GitLab", "Linux Server", "Nginx", "Docker", "CI/CD", "SSH"],
-    "full_description": "Implemented a company-wide GitLab private server to centralize code repositories, automate deployments, and enhance development workflow security. Configured SSH key-based authentication, runner setup for CI/CD pipelines, backup automation, and monitoring. Optimized server performance and ensured high availability for daily development operations.",
-    "features": [
-      "Private GitLab Server Setup",
-      "Repository & User Access Management",
-      "CI/CD Pipeline Configuration",
-      "Secure SSH Authentication",
-      "Automated Backups",
-      "Nginx Reverse Proxy Setup",
-      "Server Hardening & Monitoring"
-    ],
-    "screenshots": [],
-    "demoLink": null,
-    "githubLink": null
-  },
+  "id": 7,
+  "title": "GitLab Server Deployment",
+  "category": "DevOps",
+  "projectType": "System Deployment",
+  "main_description": "Installed and configured a self-hosted GitLab Community Edition (CE) server for internal repository management and secure source code collaboration.",
+  "mainPhoto": "/images/projects/sample.png",
+  "technologies": ["GitLab CE", "Linux Server", "Nginx", "SSH", "Backup & Restore"],
+  "full_description": "Deployed a self-hosted GitLab Community Edition server to allow internal teams to manage private repositories and collaborate securely. Configured domain, HTTPS, Nginx reverse proxy, SSH access, user/group management, backup scheduling, and essential security hardening. Ensured stable performance and reliable access for daily development operations.",
+  "features": [
+    "GitLab CE Installation on Linux Server",
+    "Private Repository Hosting",
+    "User & Group Access Control",
+    "Nginx Reverse Proxy & HTTPS Configuration",
+    "SSH Key Authentication"
+  ],
+  "screenshots": [],
+  "demoLink": null,
+  "githubLink": null
+},
   
 {
   "id": 9,
@@ -229,13 +202,13 @@
   "category": "Frontend",
   "projectType": "Portfolio Piece",
   "main_description": "A modern and responsive subscription and product showcase UI built with React, Vite, and TailwindCSS, designed for fast performance and clean visual presentation.",
-  "mainPhoto": "/images/infinity-main.png",
+  "mainPhoto": "/images/projects/sample.png",
   "technologies": [
-    "React 19",
-    "Vite 7",
-    "Tailwind CSS 4",
+    "React",
+    "Vite",
+    "Tailwind",
     "DaisyUI",
-    "React Router v7",
+    "React Router",
     "React Icons",
     "React Scroll",
     "React Spinners",
@@ -252,11 +225,7 @@
     "Modern UI Animations & Loading Effects",
     "Optimized Performance with Vite"
   ],
-  "screenshots": [
-    "/images/infinity-home.png",
-    "/images/infinity-products.png",
-    "/images/infinity-plans.png"
-  ],
+  "screenshots": [],
   "demoLink": "https://infinity-kohl-eight.vercel.app/",
   "githubLink": null
 },
@@ -266,13 +235,13 @@
   "category": "Frontend",
   "projectType": "Personal Website",
   "main_description": "A fully responsive and modern personal portfolio built with React, Vite, and TailwindCSS, featuring smooth animations, optimized routing, and a clean UI design to showcase skills, projects, and contact information.",
-  "mainPhoto": "/images/portfolio-main.png",
+  "mainPhoto": "/images/projects/sample.png",
   "technologies": [
-    "React 19",
-    "Vite 7",
+    "React",
+    "Vite",
     "Tailwind CSS 4",
     "DaisyUI",
-    "React Router v7",
+    "React Router",
     "React Scroll",
     "Framer Motion",
     "React Icons",
@@ -291,57 +260,8 @@
     "Modern TailwindCSS & DaisyUI Styling",
     "Static Deployment with Custom Domain"
   ],
-  "screenshots": [
-    "/images/portfolio-home.png",
-    "/images/portfolio-about.png",
-    "/images/portfolio-projects.png",
-    "/images/portfolio-contact.png"
-  ],
+  "screenshots": [],
   "demoLink": "https://kaunghtetzaw.com",
   "githubLink": null
-},
-{
-  "id": 11,
-  "title": "Task Management System",
-  "category": "Fullstack",
-  "projectType": "Portfolio Piece",
-  "main_description": "A comprehensive task management system built with Laravel, MySQL, and jQuery, designed to streamline task tracking, reporting, and team collaboration on Ubuntu servers with Apache.",
-  "mainPhoto": "/images/task-main.png",
-  "technologies": [
-    "Laravel 10",
-    "MySQL 8",
-    "jQuery 3",
-    "Bootstrap 5",
-    "Ubuntu 22.04",
-    "Apache 2.4",
-    "PHP 8",
-    "AptoBackend",
-    "Report Generation"
-  ],
-  "full_description": "This Task Management System is a full-featured web application built with Laravel and MySQL. It allows teams to create, assign, and track tasks efficiently. The system uses jQuery and Bootstrap for interactive UI elements, supports report generation, and runs on Ubuntu servers with Apache for stable deployment. The project emphasizes backend logic, database optimization, and clean frontend interactions for a seamless user experience.",
-  "features": [
-    "Task Creation, Assignment & Tracking",
-    "User Role & Permission Management",
-    "Interactive Dashboard with jQuery",
-    "Responsive UI with Bootstrap",
-    "Detailed Task Reporting & Export",
-    "Database-Driven Backend with Laravel",
-    "Server Deployment on Ubuntu & Apache",
-    "Optimized Performance & Security"
-  ],
-  "screenshots": [
-    "/images/task-dashboard.png",
-    "/images/task-list.png",
-    "/images/task-report.png"
-  ],
-  "demoLink": null,
-  "githubLink": null
 }
-
-
-
-
-
-
-
 ]

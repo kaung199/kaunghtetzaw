@@ -7,7 +7,7 @@ const Projects = ({ data }) => {
 
   return (
     <>
-      <div className="max-w-sm bg-white rounded-2xl border border-gray-200 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+      <div className="max-w-sm bg-white rounded-2xl border border-gray-200 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden flex flex-col">
         {/* Image */}
         <div className="overflow-hidden">
           <img
@@ -18,7 +18,7 @@ const Projects = ({ data }) => {
         </div>
 
         {/* Content */}
-        <div className="p-5 xs:p-7">
+        <div className="p-5 xs:p-7 flex flex-col flex-grow">
           <p className="text-gray-400 text-xs font-medium mb-1">
             {data?.category} | {data?.projectType}
           </p>
@@ -34,9 +34,8 @@ const Projects = ({ data }) => {
             {data?.main_description}
           </p>
 
-          {/* Buttons */}
-          <div className="flex flex-wrap gap-3 mt-6">
-            {/* Details Button */}
+          {/* Buttons → ALWAYS at BOTTOM */}
+          <div className="flex flex-wrap gap-3 mt-auto pt-6">
             <button
               onClick={() => setShowModal(true)}
               className="flex cursor-pointer items-center justify-center gap-2 border border-gray-300 text-gray-800 hover:border-teal-500 hover:text-teal-600 bg-white font-semibold text-sm xs:text-base py-2.5 px-5 rounded-lg transition-all duration-300"
@@ -45,7 +44,6 @@ const Projects = ({ data }) => {
               <FaArrowRight className="text-sm" />
             </button>
 
-            {/* Demo Button (only if demoLink exists) */}
             {data?.demoLink && (
               <a
                 href={data?.demoLink}
@@ -61,7 +59,6 @@ const Projects = ({ data }) => {
         </div>
       </div>
 
-      {/* Modal */}
       {showModal && (
         <ProjectDetailModal project={data} onClose={() => setShowModal(false)} />
       )}
