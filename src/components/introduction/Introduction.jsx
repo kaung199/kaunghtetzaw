@@ -20,7 +20,7 @@ const Introduction = () => {
             </span>
           </p>
           <p className="text-xs xxs:text-lg lg:text-[18px] my-6">
-            <span className="bg-highlight">Full-Stack Developer</span> with <span className="bg-highlight">{experienceYear}+ years</span> of experience building and optimizing end-to-end web applications and APIs. 
+            <span className="bg-highlight">Senior Full-Stack Developer</span> with <span className="bg-highlight">{experienceYear}+ years</span> of experience building and optimizing end-to-end web applications and APIs. 
             Expert in <span className="bg-highlight">Laravel</span>, <span className="bg-highlight">PHP</span>, and modern JavaScript frameworks, with a strong focus on clean, maintainable code, scalable architecture, and high-performance systems. 
           </p>
           <p className="text-center lg:text-start">
